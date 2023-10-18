@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+  
+    background-image: url(../img/design1_image1.jpg);
+    min-height: 10vh;
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-size: 50% 0;
+    background-size: cover;
+   
+
+}
+
+header img{
+    width: 8%;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50px;
+
+}
+
+h1{
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    font-size: 4rem;
+    margin-right: 1rem;
+}
+
+nav{
+ 
+    min-height: 0.5vh;
+    padding: 0px 300px 0px 0px;
+
+}
+
+a{
+    display: inline-block;/*display flex*/
+    width: 8rem;
+    height: 3rem;
+    color: black;
+    background-color: rgb(236, 238, 119);
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 1rem;/*gap*/
+    font-weight: bolder;
+    position: relative;
+    left: 65%;
+ 
+    /*justify content y aling item */
+    /*navbar flexbox css - para buscar ejemplos*/
+}
+
+a:hover{
+    background-color: rgb(255, 206, 47);
+    color: grey;
+}
+
+a:active{
+    background-color: black;
+}
+
+main{
+    background-color: white;
+    min-height: 80vh;
+    padding: 1rem;
+}
+
+main>h2{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+section{
+    background-color: rgb(198, 255, 196);
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.358);
+    margin: 1rem;
+}
+
+
+section img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 1rem 0 0 1rem;
+}
+
+section div{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    vertical-align: top;
+    padding: 0.5rem;
+}
+
+section div h2{
+    margin-bottom: 0.5rem;
+    color: rgb(12, 9, 8);
+}
+
+div p{
+    color: palevioletred;
+}
+
+section:hover{
+    background-color: rgb(245, 204, 117);
+}
+
+footer{
+    background-color: black;
+ 
+    padding: 5em;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    background-image: url(../img/backgroundgatos.jpg);
+}
+
+nav{
+    background-color: orange;
+}
+main{
+    background-color: orangered;
+}
+
+#tituloPrincipal{
+    color: orange;
+}
+
+#logoPagina{
+    
+}
+
+section{
+    box-sizing: border-box;
+    background-color: green;
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    border: 10px solid white;
+    margin: 10px;
+    display: inline-block;
+}
+
+section img{
+    height: 100px;
+}
+
+.rojo{
+    color: red;
+}
+
+a{
+    background-color: pink;
+    height: 200px;
+    width: 500;
+}
+
+h1{
+    color: green!important;
+    background-color: red!important;
+}
+
+.seccion1{
+    background-color: red;
+}
+.seccion2{
+    background-color: blue;
+}
+.seccion3{
+    background-color: green;
+} */
